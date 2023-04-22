@@ -5,68 +5,84 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prince's Homepage</title>
+
     <script src="https://kit.fontawesome.com/b7c501f65f.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="css/styles.css">
+
     <link rel="icon" href="image/favicon.png">
+
+    <!-- googlefonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merriweather&family=Merriweather+Sans&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Montez&family=Montserrat&family=Roboto+Slab&display=swap"
         rel="stylesheet">
 
 </head>
 
 <body>
-    <div class="top-container">
-        <img class="cloudup" src="image/cloud.png" alt="cloud image">
-        <h1>I'm Prince.</h1>
-        <p class="tagline">a <span class="pro">pro</span>grammer.</p>
-        <img class="clouddown" src="image/cloud.png" alt="cloud image">
-        <img class="mountain" src="image/mountain.png" alt="mountain image">
-    </div>
-    <div class="middle-container">
+    <section class="top-container">
+        <div class="sky">
+            <div class="sky-box">
+                <img class="cloudup transition" src="./image/cloud.svg" alt="cloud image">
+                <h1 class="transition">I'm Prince.</h1>
+                <p class="tagline">a web designer.</p>
+                <img class="clouddown transition" src="./image/cloud.svg" alt="cloud image">
+            </div>
+        </div>
+
+        <div class="earth">
+            <img class="mountain transition" src="./image/land.svg" alt="mountain image">
+        </div>
+    </section>
+
+
+    <section class="middle-container">
         <div class="profile">
-            <img class="profile-image" src="image/favicon.png" alt="profile-image">
-            <h2>Hello.</h2>
+            <img class="profile-image" src="image/favicon.png" alt="profile-image" width="30%">
+            <h3>Hello.</h3>
             <p>
-                I'm a student of Computer Science and Engineering. I loves to research, keen to welcome new technologies
-                and learns about the law to empower in the real world. Extensive ability to work under a stressful and
-                spontaneous environment, where the player's attitude, communication skills improves conditions and help
-                in keeping teams spirit sky-high.
+                I'm a web designer / developer based in India. I have a passion for web design and love to create new
+                things.
             </p>
         </div>
         <hr>
         <div class="skills">
-            <h2>My Skills.</h2>
-            <div class="skill-row">
-                <img class="coding-image" src="image/coding.png" alt="coding-image">
-                <h3>Programming</h3>
-                <p>I'm a programmer. I have knowledge of many coding languages like Java, C, C++, etc. Currently, i'm
-                    working on the skill of Web Development.</p>
+            <h2>What I can do.</h2>
+            <div class="skill_1">
+                <img class="coding-image transition" src="image/coding.png" alt="coding-image">
+                <div class="coding">
+                    <h3 class="transition">Developing</h3>
+                    <p class="transition">I'm a developer, so I know how to create your website to run across devices
+                        using the latest
+                        technologies available.</p>
+                </div>
             </div>
-            <div class="skill-row">
-                <img class="design-image" src="image/web-design.png" alt="design-image">
-                <h3>Designing</h3>
-                <p>I also have the knowledge of Designing tools like Adobe illustrator, Figma, Canva etc. I use to do
-                    graphic designing as a side hobby.</p>
+            <div class="skill_2">
+                <img class="design-image transition" src="image/web-design.png" alt="design-image">
+                <div class="design">
+                    <h3 class="transition">Designing</h3>
+                    <p class="transition">I like to keep it simple. My goals are to focus on content and conveying the
+                        message that you want to send.</p>
+                </div>
             </div>
         </div>
         <hr>
         <div class="contact-me">
             <h2>Get In Touch</h2>
-            <h3>I can help.</h3>
+            <h3>I’m currently available for freelance work.</h3>
             <p>If you have a project that you want to get started, think you need my help with something or just fancy
                 saying hey, then get in touch.</p>
             <a class="btn" href="mailto:princesaini7963@gmail.com">CONTACT ME</a>
         </div>
-    </div>
-
+    </section>
 
     <div class="bottom-container">
         <a class="footer-link" href="https://www.linkedin.com/in/princesaini00/">
             <i class="fa-brands fa-linkedin fa-2x"></i></a>
         <a class="footer-link" href="https://twitter.com/princesaini_00"><i class="fa-brands fa-twitter fa-2x"></i></a>
-        <a class="footer-link" href="https://www.instagram.com/mundra.prince/?igshid=ZDdkNTZiNTM%3D"><i class="fa-brands fa-instagram fa-2x"></i></a>
+        <a class="footer-link" href="https://www.instagram.com/mundra.prince/?igshid=ZDdkNTZiNTM%3D"><i
+                class="fa-brands fa-instagram fa-2x"></i></a>
         <p class="reserved">© 2023 Prince Saini. All rights reserved.</p>
     </div>
 
