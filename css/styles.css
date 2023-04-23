@@ -1,3 +1,6 @@
+/* Reset */
+/*********/
+
 * {
     margin: 0;
     padding: 0;
@@ -23,14 +26,14 @@ h1 {
 
 h2 {
     font-family: 'Montserrat', sans-serif;
-    color: #45b29a;
+    color: #66BFBF;
     font-size: 1.8rem;
     margin-bottom: 3rem;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    color: #45b29a;
+    color: #66BFBF;
     font-size: 1.2rem;
     margin: 1rem auto;
 }
@@ -43,6 +46,9 @@ hr {
     border-width: 6px;
     margin: 0 auto;
 }
+
+/* Upper Part */
+/**************/
 
 .tagline {
     font-family: 'Montserrat', sans-serif;
@@ -90,6 +96,9 @@ hr {
     width: min(100%, 50rem);
 }
 
+/* Middle Part */
+/***************/
+
 .middle-container {
     padding: 0 2em;
     margin: 0 auto;
@@ -114,6 +123,9 @@ hr {
 .skill_1 {
     margin-bottom: 3rem;
 }
+
+/* Button */
+/**********/
 
 .btn {
     background: #11cdd4;
@@ -144,6 +156,8 @@ hr {
     text-decoration: none;
 }
 
+/* Lower Part */
+/**************/
 
 .bottom-container {
     background-color: #66BFBF;
@@ -176,6 +190,8 @@ a:hover {
     transition: all 1s ease-in-out;
 }
 
+/* Responsiveness */
+/******************/
 
 @media (min-width:50rem) {
     h1 {
